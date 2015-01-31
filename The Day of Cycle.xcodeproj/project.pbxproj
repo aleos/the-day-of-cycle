@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		571927771A7D62F000AA8AED /* DecorationsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 571927761A7D62F000AA8AED /* DecorationsView.m */; };
 		5788B9041A7D47360057200A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5788B9031A7D47360057200A /* main.m */; };
 		5788B9071A7D47370057200A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5788B9061A7D47370057200A /* AppDelegate.m */; };
 		5788B90A1A7D47370057200A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5788B9091A7D47370057200A /* ViewController.m */; };
@@ -27,6 +28,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		571927751A7D62F000AA8AED /* DecorationsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DecorationsView.h; sourceTree = "<group>"; };
+		571927761A7D62F000AA8AED /* DecorationsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DecorationsView.m; sourceTree = "<group>"; };
 		5788B8FE1A7D47360057200A /* The Day of Cycle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "The Day of Cycle.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5788B9021A7D47360057200A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5788B9031A7D47360057200A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -84,6 +87,8 @@
 				5788B9051A7D47360057200A /* AppDelegate.h */,
 				5788B9061A7D47370057200A /* AppDelegate.m */,
 				5788B9081A7D47370057200A /* ViewController.h */,
+				571927751A7D62F000AA8AED /* DecorationsView.h */,
+				571927761A7D62F000AA8AED /* DecorationsView.m */,
 				5788B9091A7D47370057200A /* ViewController.m */,
 				5788B90B1A7D47370057200A /* Main.storyboard */,
 				5788B90E1A7D47370057200A /* Images.xcassets */,
@@ -221,6 +226,7 @@
 			files = (
 				5788B90A1A7D47370057200A /* ViewController.m in Sources */,
 				5788B9071A7D47370057200A /* AppDelegate.m in Sources */,
+				571927771A7D62F000AA8AED /* DecorationsView.m in Sources */,
 				5788B9041A7D47360057200A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -13,7 +13,7 @@
                         <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
                         <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS" customClass="DecorationsView">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <userGuides>
@@ -38,13 +38,16 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Days left until the next cycle:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="j6b-wd-UZT" userLabel="Days until Title">
-                                <rect key="frame" x="179" y="468" width="242" height="42"/>
+                                <rect key="frame" x="179" y="458" width="242" height="42"/>
                                 <fontDescription key="fontDescription" name="SavoyeLetPlain" family="Savoye LET" pointSize="33"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="13" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="puS-jt-fSL" userLabel="Days until">
-                                <rect key="frame" x="273" y="484" width="76" height="143"/>
+                                <rect key="frame" x="271" y="484" width="80" height="143"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="90" id="xNb-Uk-szf"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" name="SavoyeLetPlain" family="Savoye LET" pointSize="100"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
@@ -56,9 +59,9 @@
                             <constraint firstAttribute="centerX" secondItem="j6b-wd-UZT" secondAttribute="centerX" id="4DD-tU-pbh"/>
                             <constraint firstAttribute="centerX" secondItem="iqF-yD-nwa" secondAttribute="centerX" constant="-0.5" id="55D-MP-Xsx"/>
                             <constraint firstAttribute="centerX" secondItem="rEK-UX-BWg" secondAttribute="centerX" constant="-11" id="Iau-Rm-O79"/>
-                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="j6b-wd-UZT" secondAttribute="bottom" constant="90" id="Kyp-Ms-Jin"/>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="j6b-wd-UZT" secondAttribute="bottom" constant="100" id="Kyp-Ms-Jin"/>
                             <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="puS-jt-fSL" secondAttribute="bottom" constant="-10" id="NwO-CI-CrC"/>
-                            <constraint firstAttribute="centerX" secondItem="puS-jt-fSL" secondAttribute="centerX" constant="-11.5" id="dg7-AB-0lC"/>
+                            <constraint firstAttribute="centerX" secondItem="puS-jt-fSL" secondAttribute="centerX" constant="-7" id="dg7-AB-0lC"/>
                             <constraint firstAttribute="centerY" secondItem="rEK-UX-BWg" secondAttribute="centerY" constant="2.5" id="gOC-1x-kBH"/>
                         </constraints>
                     </view>
