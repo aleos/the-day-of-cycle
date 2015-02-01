@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6245" systemVersion="14C109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="14C109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
     <dependencies>
-        <deployment defaultVersion="1808" identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6238"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -31,20 +31,20 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="The day of cycle:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iqF-yD-nwa" userLabel="Day Title">
-                                <rect key="frame" x="169" y="68" width="263" height="120"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="The day of cycle:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iqF-yD-nwa" userLabel="Day Title">
+                                <rect key="frame" x="191" y="68" width="219" height="60"/>
                                 <fontDescription key="fontDescription" name="SavoyeLetPlain" family="Savoye LET" pointSize="50"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Days left until the next cycle:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="j6b-wd-UZT" userLabel="Days until Title">
-                                <rect key="frame" x="179" y="458" width="242" height="42"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Days left until the next cycle:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="j6b-wd-UZT" userLabel="Days until Title">
+                                <rect key="frame" x="179" y="460" width="242" height="40"/>
                                 <fontDescription key="fontDescription" name="SavoyeLetPlain" family="Savoye LET" pointSize="33"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="13" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="puS-jt-fSL" userLabel="Days until">
-                                <rect key="frame" x="271" y="484" width="80" height="143"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="13" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="puS-jt-fSL" userLabel="Days until">
+                                <rect key="frame" x="262" y="491" width="90" height="119"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="90" id="xNb-Uk-szf"/>
                                 </constraints>
@@ -52,15 +52,21 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="infoLight" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HiL-Xx-aXC">
+                                <rect key="frame" x="570" y="570" width="22" height="22"/>
+                                <color key="tintColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="0.97999999999999998" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="iqF-yD-nwa" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="48" id="3my-KK-GD9"/>
                             <constraint firstAttribute="centerX" secondItem="j6b-wd-UZT" secondAttribute="centerX" id="4DD-tU-pbh"/>
                             <constraint firstAttribute="centerX" secondItem="iqF-yD-nwa" secondAttribute="centerX" constant="-0.5" id="55D-MP-Xsx"/>
+                            <constraint firstAttribute="trailing" secondItem="HiL-Xx-aXC" secondAttribute="trailing" constant="8" id="7wm-Bs-snD"/>
                             <constraint firstAttribute="centerX" secondItem="rEK-UX-BWg" secondAttribute="centerX" constant="-11" id="Iau-Rm-O79"/>
                             <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="j6b-wd-UZT" secondAttribute="bottom" constant="100" id="Kyp-Ms-Jin"/>
                             <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="puS-jt-fSL" secondAttribute="bottom" constant="-10" id="NwO-CI-CrC"/>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="HiL-Xx-aXC" secondAttribute="bottom" constant="8" id="Zzu-BR-d7J"/>
                             <constraint firstAttribute="centerX" secondItem="puS-jt-fSL" secondAttribute="centerX" constant="-7" id="dg7-AB-0lC"/>
                             <constraint firstAttribute="centerY" secondItem="rEK-UX-BWg" secondAttribute="centerY" constant="2.5" id="gOC-1x-kBH"/>
                         </constraints>
