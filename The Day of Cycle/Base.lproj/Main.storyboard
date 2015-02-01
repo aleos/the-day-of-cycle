@@ -14,63 +14,51 @@
                         <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS" customClass="DecorationsView">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <userGuides>
-                            <userLayoutGuide location="300" affinity="minX"/>
-                            <userLayoutGuide location="300" affinity="minY"/>
+                            <userLayoutGuide location="160" affinity="minX"/>
+                            <userLayoutGuide location="284" affinity="minY"/>
                         </userGuides>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="15" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rEK-UX-BWg" userLabel="Day">
-                                <rect key="frame" x="144" y="119" width="334" height="357"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="357" id="Zu3-Jq-vpX"/>
-                                    <constraint firstAttribute="width" constant="334" id="iCL-lp-3ws"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" name="SavoyeLetPlain" family="Savoye LET" pointSize="250"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="The day of cycle:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iqF-yD-nwa" userLabel="Day Title">
-                                <rect key="frame" x="191" y="68" width="219" height="60"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="The day of cycle:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iqF-yD-nwa" userLabel="Day Title">
+                                <rect key="frame" x="51" y="66" width="219" height="60"/>
                                 <fontDescription key="fontDescription" name="SavoyeLetPlain" family="Savoye LET" pointSize="50"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Days left until the next cycle:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="j6b-wd-UZT" userLabel="Days until Title">
-                                <rect key="frame" x="179" y="460" width="242" height="40"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Days left until the next cycle:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="j6b-wd-UZT" userLabel="Days until Title">
+                                <rect key="frame" x="39" y="434" width="242" height="40"/>
                                 <fontDescription key="fontDescription" name="SavoyeLetPlain" family="Savoye LET" pointSize="33"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="13" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="puS-jt-fSL" userLabel="Days until">
-                                <rect key="frame" x="262" y="491" width="90" height="119"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="90" id="xNb-Uk-szf"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" name="SavoyeLetPlain" family="Savoye LET" pointSize="100"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="infoLight" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HiL-Xx-aXC">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="infoLight" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HiL-Xx-aXC">
                                 <rect key="frame" x="570" y="570" width="22" height="22"/>
                                 <color key="tintColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="clip" translatesAutoresizingMaskIntoConstraints="NO" id="lOQ-RY-c6C">
+                                <rect key="frame" x="60" y="160" width="200" height="200"/>
+                                <fontDescription key="fontDescription" name="SavoyeLetPlain" family="Savoye LET" pointSize="250"/>
+                                <inset key="contentEdgeInsets" minX="20" minY="50" maxX="0.0" maxY="0.0"/>
+                                <inset key="titleEdgeInsets" minX="-40" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                <state key="normal" title=" 28 ">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Tur-aa-BLI">
+                                <rect key="frame" x="120" y="468" width="80" height="80"/>
+                                <fontDescription key="fontDescription" name="SavoyeLetPlain" family="Savoye LET" pointSize="100"/>
+                                <inset key="contentEdgeInsets" minX="7" minY="20" maxX="0.0" maxY="0.0"/>
+                                <state key="normal" title=" 13 ">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="0.97999999999999998" alpha="1" colorSpace="calibratedWhite"/>
-                        <constraints>
-                            <constraint firstItem="iqF-yD-nwa" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="48" id="3my-KK-GD9"/>
-                            <constraint firstAttribute="centerX" secondItem="j6b-wd-UZT" secondAttribute="centerX" id="4DD-tU-pbh"/>
-                            <constraint firstAttribute="centerX" secondItem="iqF-yD-nwa" secondAttribute="centerX" constant="-0.5" id="55D-MP-Xsx"/>
-                            <constraint firstAttribute="trailing" secondItem="HiL-Xx-aXC" secondAttribute="trailing" constant="8" id="7wm-Bs-snD"/>
-                            <constraint firstAttribute="centerX" secondItem="rEK-UX-BWg" secondAttribute="centerX" constant="-11" id="Iau-Rm-O79"/>
-                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="j6b-wd-UZT" secondAttribute="bottom" constant="100" id="Kyp-Ms-Jin"/>
-                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="puS-jt-fSL" secondAttribute="bottom" constant="-10" id="NwO-CI-CrC"/>
-                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="HiL-Xx-aXC" secondAttribute="bottom" constant="8" id="Zzu-BR-d7J"/>
-                            <constraint firstAttribute="centerX" secondItem="puS-jt-fSL" secondAttribute="centerX" constant="-7" id="dg7-AB-0lC"/>
-                            <constraint firstAttribute="centerY" secondItem="rEK-UX-BWg" secondAttribute="centerY" constant="2.5" id="gOC-1x-kBH"/>
-                        </constraints>
                     </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
