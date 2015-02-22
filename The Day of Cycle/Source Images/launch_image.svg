@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="640"
+   height="1136"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.5 r10040"
+   inkscape:export-filename="/Users/aleos/Developer/ios/dayOfCycle/icons/TheDayOfCycle_LaunchImage_long.png"
+   inkscape:export-xdpi="90"
+   inkscape:export-ydpi="90"
+   sodipodi:docname="launch_image.svg">
+  <defs
+     id="defs4">
+    <linearGradient
+       id="linearGradient4275">
+      <stop
+         id="stop4277"
+         offset="0"
+         style="stop-color:#ffffff;stop-opacity:1;" />
+      <stop
+         style="stop-color:#cdc5cd;stop-opacity:1;"
+         offset="0.57961786"
+         id="stop4283" />
+      <stop
+         id="stop4279"
+         offset="1"
+         style="stop-color:#aa99aa;stop-opacity:1;" />
+    </linearGradient>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.58989362"
+     inkscape:cx="114.87827"
+     inkscape:cy="402.19116"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer3"
+     showgrid="false"
+     showguides="true"
+     inkscape:guide-bbox="true"
+     inkscape:window-width="2484"
+     inkscape:window-height="1286"
+     inkscape:window-x="18"
+     inkscape:window-y="1"
+     inkscape:window-maximized="0" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:groupmode="layer"
+     id="layer3"
+     inkscape:label="Background"
+     transform="translate(0,196)">
+    <rect
+       style="fill:#f9f9f9;fill-opacity:1"
+       id="rect6892"
+       width="640"
+       height="1136"
+       x="0"
+       y="-196" />
+    <text
+       sodipodi:linespacing="125%"
+       id="text3099-6"
+       y="256.6691"
+       x="886.09741"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       xml:space="preserve"><tspan
+         y="256.6691"
+         x="886.09741"
+         id="tspan3101-8"
+         sodipodi:role="line" /></text>
+  </g>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,83.63782)">
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="121.2083"
+       y="160.19838"
+       id="text3099"
+       sodipodi:linespacing="125%"
+       transform="translate(0,112.36218)"><tspan
+         sodipodi:role="line"
+         id="tspan3101"
+         x="121.2083"
+         y="160.19838" /></text>
+  </g>
+</svg>
